@@ -719,14 +719,15 @@ h1, h2, h4, h5, h6 {
 
 /* our team */
 .img-text-area{
-    width: 100%;
-    height: 100px;
+    width: 170%;
+    height: 30px;
     display: block;
     text-align: center;
-    padding: 40% 5%;
-    background: #5db0aa;
+    padding: 11% 5%;
+    background: #262c7c;
     color: #fff;
-    border-radius: 15px;
+    border-radius: 5px;
+    margin-bottom: -20px;
 }
 .img-text-area h2{
     font-size: 20px;
@@ -735,6 +736,10 @@ h1, h2, h4, h5, h6 {
 }
 .img-text-area h3{
     font-size: 16px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    margin: -10px;
 }
 .img-text-area p{
     font-size: 14px;
@@ -763,40 +768,178 @@ h1, h2, h4, h5, h6 {
         transform: translate3d(4px, 0, 0);
     }
 }
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px #5a885e;
+    color: #ffe029;
+}
+
+.section-title h6 {
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px #5a885e;
+    color: #ffffff;
+}
 @media(max-width:1039px){
     .img-text-area{
-        height: 270px;
-        padding: 45% 5%;
+        height: 20px;
+        padding: 10% 5%;
+        width: 280px;
+    }
+    .section-title {
+        text-align: center;
+        padding-bottom: 130px;
+    }
+
+    .section-title h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffe029;
+    }
+
+    .section-title h6 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffffff;
     }
 }
 @media(max-width:991px){
     .img-text-area{
-        height: 290px;
-        padding: 65% 5%;
+        height: 20px;
+        padding: 10% 5%;
+        width: 280px;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-bottom: 130px;
+    }
+
+    .section-title h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffe029;
+    }
+
+    .section-title h6 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffffff;
     }
 }
 @media(max-width:767px){
     .img-text-area{
-        height: 150px;
-        padding: 25% 5%;
+        height: 20px;
+        padding: 10% 5%;
+        width: 280px;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-bottom: 130px;
+    }
+
+    .section-title h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffe029;
+    }
+
+    .section-title h6 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffffff;
     }
 }
 @media(max-width:500px){
     .img-text-area{
         padding: 30% 5%;
-        height: 130px;
+        height: 10px;
+        width: 280px;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-bottom: 130px;
+    }
+
+    .section-title h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffe029;
+    }
+
+    .section-title h6 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffffff;
     }
 }
 @media(max-width:491px){
     .img-text-area{
-        height: 180px;
-        padding: 30% 5%;
+        height: 20px;
+        padding: 10% 5%;
+        width: 280px;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-bottom: 130px;
+    }
+
+    .section-title h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffe029;
+    }
+
+    .section-title h6 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffffff;
     }
 }
 @media(max-width:421px){
     .img-text-area{
-        height: 240px;
-        padding: 35% 5%;
+        height: 20px;
+        padding: 10% 5%;
+        width: 280px;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-bottom: 130px;
+    }
+
+    .section-title h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffe029;
+    }
+
+    .section-title h6 {
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px #5a885e;
+        color: #ffffff;
     }
 }
 
@@ -869,7 +1012,7 @@ form {
 
 .title {
     color: #fff;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1.5rem;
     line-height: 1;
     margin-bottom: 0.7rem;
@@ -1035,7 +1178,7 @@ textarea.input {
 }
 
 .text {
-    color: #333;
+    color: #b4b3b3;
     margin: 1.5rem 0 2rem 0;
 }
 
