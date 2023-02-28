@@ -883,7 +883,7 @@ h1, h2, h4, h5, h6 {
 
 /* our team */
 .img-text-area{
-    width: 170%;
+    width: 160%;
     height: 30px;
     display: block;
     text-align: center;
@@ -1084,7 +1084,7 @@ h1, h2, h4, h5, h6 {
     .img-text-area{
         height: 20px;
         padding: 10% 5%;
-        width: 280px;
+        width: 260px;
     }
 
     .section-title {
