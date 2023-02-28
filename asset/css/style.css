@@ -233,7 +233,16 @@ h1, h2, h4, h5, h6 {
     line-height: 1;
 }
 
-/* why service me */
+.login {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+}
+
+.login .title {
+    color: #1abc9c;
+}
+
+/* why */
 .row .icon-box {
     padding: 25px 25px;
     position: relative;
@@ -340,6 +349,7 @@ h1, h2, h4, h5, h6 {
     font-size: 14px;
     font-style: italic;
 }
+
 .single-box{
     position: relative;
     margin-bottom: 30px;
@@ -366,6 +376,26 @@ h1, h2, h4, h5, h6 {
         height: 270px;
         padding: 45% 5%;
     }
+    .login {
+        padding: 2.3rem 2.2rem;
+        position: relative;
+    }
+
+    .bg-header {
+        border: 1px solid #aed0ea;
+        background-image: url("https://ep.bpbatam.go.id/dist/img/bg.jpg");
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #fafafa;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1px;
+        margin-bottom: -20px;
+    }
 }
 @media(max-width:991px){
     .img-area{
@@ -376,11 +406,49 @@ h1, h2, h4, h5, h6 {
         height: 290px;
         padding: 65% 5%;
     }
+    .login {
+        padding: 2.3rem 2.2rem;
+        position: relative;
+    }
+    .bg-header {
+        border: 1px solid #aed0ea;
+        background-image: url("https://ep.bpbatam.go.id/dist/img/bg.jpg");
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #fafafa;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1px;
+        margin-bottom: -20px;
+    }
 }
 @media(max-width:767px){
     .img-area{
         top: 15px;
         left: 200px;
+    }
+    .login {
+        padding: 2.3rem 2.2rem;
+        position: relative;
+    }
+    .bg-header {
+        border: 1px solid #aed0ea;
+        background-image: url("https://ep.bpbatam.go.id/dist/img/bg.jpg");
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #fafafa;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1px;
+        margin-bottom: -20px;
     }
     .img-text{
         height: 150px;
@@ -390,6 +458,25 @@ h1, h2, h4, h5, h6 {
 @media(max-width:500px){
     .img-area{
         left: 180px;
+    }
+    .login {
+        padding: 2.3rem 2.2rem;
+        position: relative;
+    }
+    .bg-header {
+        border: 1px solid #aed0ea;
+        background-image: url("https://ep.bpbatam.go.id/dist/img/bg.jpg");
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #fafafa;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1px;
+        margin-bottom: -20px;
     }
     .img-text{
         padding: 30% 5%;
@@ -401,10 +488,48 @@ h1, h2, h4, h5, h6 {
         height: 180px;
         padding: 30% 5%;
     }
+    .login {
+        padding: 2.3rem 2.2rem;
+        position: relative;
+    }
+    .bg-header {
+        border: 1px solid #aed0ea;
+        background-image: url("https://ep.bpbatam.go.id/dist/img/bg.jpg");
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #fafafa;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1px;
+        margin-bottom: -20px;
+    }
 }
 @media(max-width:471px){
     .img-area{
         left: 165px;
+    }
+    .login {
+        padding: 2.3rem 2.2rem;
+        position: relative;
+    }
+    .bg-header {
+        border: 1px solid #aed0ea;
+        background-image: url("https://ep.bpbatam.go.id/dist/img/bg.jpg");
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #fafafa;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1px;
+        margin-bottom: -20px;
     }
 }
 @media(max-width:421px){
@@ -414,6 +539,25 @@ h1, h2, h4, h5, h6 {
     .img-text{
         height: 240px;
         padding: 35% 5%;
+    }
+    .login {
+        padding: 2.3rem 2.2rem;
+        position: relative;
+    }
+    .bg-header {
+        border: 1px solid #aed0ea;
+        background-image: url("https://ep.bpbatam.go.id/dist/img/bg.jpg");
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #fafafa;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1px;
+        margin-bottom: -20px;
     }
 }
 
@@ -473,7 +617,7 @@ h1, h2, h4, h5, h6 {
 
 /* call to action nya */
 .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../image/air-conditioner.png") center center;
+    background-image:  url("../image/bg.jpg");
     background-size: cover;
     padding: 60px 0;
 }
@@ -705,17 +849,19 @@ h1, h2, h4, h5, h6 {
 }
 
 
-.image-right{
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../image/about/about-air-conditioner.jpg") center center;
-    background-size: cover;
-    height: 400px;
-    margin-top: 60px;
-}
-@media(max-width:720px){
-    .image-right{
-        margin-top: 0;
-    }
-}
+/*.image-right{*/
+/*    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../image/about/about-air-conditioner.jpg") center center;*/
+/*    background-size: cover;*/
+/*    height: 400px;*/
+/*    margin-top: 60px;*/
+/*}*/
+/*@media(max-width:720px){*/
+/*    .image-right{*/
+/*        margin-top: 0;*/
+/*    }*/
+/*}*/
+
+/* image cover */
 
 /* our team */
 .img-text-area{
@@ -724,7 +870,7 @@ h1, h2, h4, h5, h6 {
     display: block;
     text-align: center;
     padding: 11% 5%;
-    background: #262c7c;
+    background: #17a2b8;
     color: #fff;
     border-radius: 5px;
     margin-bottom: -20px;
@@ -944,6 +1090,21 @@ h1, h2, h4, h5, h6 {
 }
 
 /* contact page */
+.bg-header {
+    border: 1px solid #aed0ea;
+    background-image: url("https://ep.bpbatam.go.id/dist/img/bg.jpg");
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #fafafa;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1px;
+    margin-bottom: -20px;
+}
 .kotak {
     position: relative;
     width: 100%;
@@ -954,6 +1115,8 @@ h1, h2, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -50px;
+    margin-bottom: -20px;
 }
 
 .form {
@@ -1818,8 +1981,6 @@ textarea.input {
     font-size: 14px;
     color: #b1a0a3;
 }
-
-
 /* waves */
 /* waves */
 .ocean {
@@ -1859,6 +2020,7 @@ textarea.input {
     50% {transform: translateX(-25%);}
     100% {transform: translateX(-50%);}
 }
+
 
 /* Margin */
 #links_left{
