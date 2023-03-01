@@ -883,7 +883,7 @@ h1, h2, h4, h5, h6 {
 
 /* our team */
 .img-text-area{
-    width: 165%;
+    width: 180%;
     height: 30px;
     display: block;
     text-align: center;
@@ -955,7 +955,7 @@ h1, h2, h4, h5, h6 {
     .img-text-area{
         height: 20px;
         padding: 10% 5%;
-        width: 280px;
+        width: 250px;
     }
     .section-title {
         text-align: center;
@@ -980,7 +980,7 @@ h1, h2, h4, h5, h6 {
     .img-text-area{
         height: 20px;
         padding: 10% 5%;
-        width: 280px;
+        width: 250px;
     }
 
     .section-title {
@@ -1006,7 +1006,7 @@ h1, h2, h4, h5, h6 {
     .img-text-area{
         height: 20px;
         padding: 10% 5%;
-        width: 280px;
+        width: 250px;
     }
 
     .section-title {
@@ -1032,7 +1032,7 @@ h1, h2, h4, h5, h6 {
     .img-text-area{
         padding: 30% 5%;
         height: 10px;
-        width: 280px;
+        width: 250px;
     }
 
     .section-title {
@@ -1058,7 +1058,7 @@ h1, h2, h4, h5, h6 {
     .img-text-area{
         height: 20px;
         padding: 10% 5%;
-        width: 280px;
+        width: 250px;
     }
 
     .section-title {
@@ -1084,7 +1084,8 @@ h1, h2, h4, h5, h6 {
     .img-text-area{
         height: 20px;
         padding: 10% 5%;
-        width: 260px;
+        width: 300px;
+        margin-left: 10px;
     }
 
     .section-title {
@@ -2005,7 +2006,7 @@ textarea.input {
     height: 80px; /* change the height of the waves here */
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     right: 0;
     overflow-x: hidden;
@@ -2054,3 +2055,4 @@ textarea.input {
     padding-top:5px;
     margin-right:1px;
 }
+
