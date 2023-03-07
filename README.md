@@ -34,8 +34,3 @@ Tools i'm using to build this project
 ## Credits
 
 - [lewinp](https://lewinp.netlify.app/)
-
-
-## License
-
-Licensed under [MIT License, Copyright (c) 2021 Wisesa](./LICENSE)
